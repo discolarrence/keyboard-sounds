@@ -1,0 +1,20 @@
+body {
+    background: darkslategrey url('imgs/sound-img.jpg') no-repeat fixed center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20px;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.key{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    border: hotpink 5px solid;
+    padding: 5px 10px
+}
