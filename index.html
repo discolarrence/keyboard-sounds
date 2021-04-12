@@ -6,50 +6,62 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <script defer src="script.js"></script>
         <title>Keyboard sounds</title>
     </head>
     <body>
         <div class="keys">
-            <div data-key="65" class="key">
+            <div code="KeyA" class="key">
+                <img src="imgs\bird.png" alt="bird" height="50px" width="50px">
                 <kbd>A</kbd>
             </div>
-            <div data-key="83" class="key">
+            <div code="KeyS" class="key">
+                <img src="imgs\cat.png" alt="cat" height="50px" width="50px">
                 <kbd>S</kbd>
             </div>
-            <div data-key="68" class="key">
+            <div code="KeyD" class="key">
+                <img src="imgs\cough.png" alt="cough" height="50px" width="50px">
                 <kbd>D</kbd>
             </div>
-            <div data-key="70" class="key">
+            <div code="KeyF" class="key">
+                <img src="imgs\dog.png" alt="dog" height="50px" width="50px">
                 <kbd>F</kbd>
             </div>
-            <div data-key="71" class="key">
+            <div code="KeyG" class="key">
+                <img src="imgs\goat.png" alt="goat" height="50px" width="50px">
                 <kbd>G</kbd>
             </div>
-            <div data-key="72" class="key">
+            <div code="KeyH" class="key">
+                <img src="imgs\horse.png" alt="horse" height="50px" width="50px">
                 <kbd>H</kbd>
             </div>
-            <div data-key="74" class="key">
+            <div code="KeyJ" class="key">
+                <img src="imgs\ice.jpg" alt="ice" height="50px" width="50px">
                 <kbd>J</kbd>
             </div>
-            <div data-key="75" class="key">
+            <div code="KeyK" class="key">
+                <img src="imgs\kiss.png" alt="kiss" height="50px" width="50px">
                 <kbd>K</kbd>
             </div>
-            <div data-key="76" class="key">
+            <div code="KeyL" class="key">
+                <img src="imgs\robot.png" alt="robot" height="50px" width="50px">
                 <kbd>L</kbd>
             </div>
-            <div data-key="186" class="key">
+            <div code="Semicolon" class="key">
+                <img src="imgs\sheep.png" alt="sheep" height="50px" width="50px">
                 <kbd>;</kbd>
             </div>
         </div>
 
-        <audio data-key="65" src="wavs/bird.wav"></audio>
-        <audio data-key="83" src="wavs/cat.wav"></audio>
-        <audio data-key="68" src="wavs/cough.wav"></audio>
-        <audio data-key="70" src="wavs/dog.wav"></audio>
-        <audio data-key="71" src="wavs/goat.wav"></audio>
-        <audio data-key="72" src="wavs/horse.wav"></audio>
-        <audio data-key="74" src="wavs/ice.wav"></audio>
-        <audio data-key="75" src="wavs/kiss.wav"></audio>
-        <audio data-key="76" src="wavs/robot.wav"></audio>
+        <audio code="KeyA" src="wavs/bird.wav"></audio>
+        <audio code="KeyS" src="wavs/cat.wav"></audio>
+        <audio code="KeyD" src="wavs/cough.wav"></audio>
+        <audio code="KeyF" src="wavs/dog.wav"></audio>
+        <audio code="KeyG" src="wavs/goat.wav"></audio>
+        <audio code="KeyH" src="wavs/horse.wav"></audio>
+        <audio code="KeyJ" src="wavs/ice.wav"></audio>
+        <audio code="KeyK" src="wavs/kiss.wav"></audio>
+        <audio code="KeyL" src="wavs/robot.wav"></audio>
+        <audio code="Semicolon" src="wavs/sheep.wav"></audio>
 </body>
 </html>
